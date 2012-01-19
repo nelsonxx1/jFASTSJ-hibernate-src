@@ -4,7 +4,7 @@
   <session-factory>
     <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
     <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
-    <property name="hibernate.connection.url">jdbc:postgresql://localhost:5433/fastsj</property>
+    <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/fastsj</property>
     <property name="hibernate.connection.username">postgres</property>
     <property name="hibernate.connection.password">claveja</property>
     <!--
@@ -107,13 +107,9 @@
     <mapping class="com.jswitch.configuracion.modelo.dominio.patologias.Especialidad"/>
     <mapping class="com.jswitch.configuracion.modelo.dominio.patologias.Diagnostico"/>
     <mapping class="com.jswitch.configuracion.modelo.dominio.patologias.Tratamiento"/>
-    <mapping class="com.jswitch.configuracion.modelo.maestra.ConfiguracionCobertura"/>
     <mapping class="com.jswitch.configuracion.modelo.dominio.Cobertura"/>
     <mapping class="com.jswitch.configuracion.modelo.maestra.ConfiguracionPrima"/>
     <mapping class="com.jswitch.configuracion.modelo.dominio.PlazoEspera"/>
-    
-    
     <mapping class="com.jswitch.vistasbd.vista1"/>
-    
   </session-factory>
 </hibernate-configuration>
