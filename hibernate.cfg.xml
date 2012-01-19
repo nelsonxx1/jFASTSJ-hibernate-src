@@ -107,13 +107,9 @@
     <mapping class="com.jswitch.configuracion.modelo.dominio.patologias.Especialidad"/>
     <mapping class="com.jswitch.configuracion.modelo.dominio.patologias.Diagnostico"/>
     <mapping class="com.jswitch.configuracion.modelo.dominio.patologias.Tratamiento"/>
-    <mapping class="com.jswitch.configuracion.modelo.maestra.ConfiguracionCobertura"/>
     <mapping class="com.jswitch.configuracion.modelo.dominio.Cobertura"/>
     <mapping class="com.jswitch.configuracion.modelo.maestra.ConfiguracionPrima"/>
     <mapping class="com.jswitch.configuracion.modelo.dominio.PlazoEspera"/>
-    
-    
     <mapping class="com.jswitch.vistasbd.vista1"/>
-    
   </session-factory>
 </hibernate-configuration>
