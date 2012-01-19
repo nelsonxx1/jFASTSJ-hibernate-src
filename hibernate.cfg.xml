@@ -110,6 +110,7 @@
     <mapping class="com.jswitch.configuracion.modelo.dominio.Cobertura"/>
     <mapping class="com.jswitch.configuracion.modelo.maestra.ConfiguracionPrima"/>
     <mapping class="com.jswitch.configuracion.modelo.dominio.PlazoEspera"/>
+    <mapping class="com.jswitch.vistasbd.Agotamiento"/>
     <mapping class="com.jswitch.vistasbd.vista1"/>
   </session-factory>
 </hibernate-configuration>
