@@ -2,18 +2,27 @@
 <!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
     <session-factory>
+ 
         <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
         <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
         <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/fastsj</property>
         <property name="hibernate.connection.username">postgres</property>
-        <property name="hibernate.connection.password">claveja</property>
+        <property name="hibernate.connection.password">claveja</property> 
+ 
     <!--
         <property name="hibernate.dialect">org.hibernate.dialect.HSQLDialect</property>
         <property name="hibernate.connection.driver_class">org.hsqldb.jdbcDriver</property>
         <property name="hibernate.connection.url">jdbc:hsqldb:hsql://127.0.0.1</property>
         <property name="hibernate.connection.username">sa</property>
-        <property name="hibernate.connection.password"/>
+        <property name="hibernate.connection.password"/>    
+    
+        <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
+        <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
+        <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/fastsj</property>
+        <property name="hibernate.connection.username">postgres</property>
+        <property name="hibernate.connection.password">claveja</property>
     -->
+    
     <!--
         <property name="hibernate.dialect">org.hibernate.dialect.MySQLInnoDBDialect</property>
         <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
@@ -24,9 +33,10 @@
         <property name="hibernate.connection.pool_size">1</property>
         <property name="hibernate.id.new_generator_mappings">true</property>
     <!--        BASE DEL SISTEMA-->
+    
     <!--property name="hibernate.show_sql">true</property-->
         <property name="hibernate.format_sql">true</property>
-        <property name="hibernate.show_sql">false</property>
+        <property name="hibernate.show_sql">true</property>
         <mapping class="com.jswitch.base.modelo.entidades.Empresa"/>
         <mapping class="com.jswitch.base.modelo.entidades.Licencia"/>
         <mapping class="com.jswitch.base.modelo.entidades.Usuario"/>
