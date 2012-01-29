@@ -32,7 +32,6 @@
         -->
         <property name="hibernate.connection.pool_size">1</property>
         <property name="hibernate.id.new_generator_mappings">true</property>
-        
     <!--        BASE DEL SISTEMA-->
     
     <!--property name="hibernate.show_sql">true</property-->
@@ -112,6 +111,11 @@
         <mapping class="com.jswitch.siniestros.modelo.maestra.detalle.Vida"/>
     <!--        configuracion -->
         <mapping class="com.jswitch.configuracion.modelo.maestra.Plan"/>
+        <mapping class="com.jswitch.configuracion.modelo.maestra.ConfiguracionProntoPago"/>
+        <mapping class="com.jswitch.configuracion.modelo.maestra.TimbreMunicipal"/>
+        <mapping class="com.jswitch.configuracion.modelo.transaccional.RangoValor"/>
+        <mapping class="com.jswitch.configuracion.modelo.maestra.ConfiguracionPrima"/>
+        <mapping class="com.jswitch.configuracion.modelo.transaccional.ConfiguracionSiniestro"/>
         <mapping class="com.jswitch.configuracion.modelo.transaccional.SumaAsegurada"/>
         <mapping class="com.jswitch.configuracion.modelo.transaccional.SumaAmparada"/>
         <mapping class="com.jswitch.configuracion.modelo.dominio.Ramo"/>
@@ -119,7 +123,6 @@
         <mapping class="com.jswitch.configuracion.modelo.dominio.patologias.Diagnostico"/>
         <mapping class="com.jswitch.configuracion.modelo.dominio.patologias.Tratamiento"/>
         <mapping class="com.jswitch.configuracion.modelo.dominio.Cobertura"/>
-        <mapping class="com.jswitch.configuracion.modelo.maestra.ConfiguracionPrima"/>
         <mapping class="com.jswitch.configuracion.modelo.dominio.PlazoEspera"/>
         <mapping class="com.jswitch.vistasbd.Agotamiento"/>
         <mapping class="com.jswitch.vistasbd.vista1"/>
